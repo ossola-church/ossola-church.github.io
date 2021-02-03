@@ -1,0 +1,7 @@
+3/2/21
+per allineare correttamente il css che permette di creare l'opacità sui bottoni della
+home page ho modificat il main.css alla sezione dalla riga 1379:
+originale = left: calc(50% -1px)
+modificato = left: calc(50% +1px)
+
+riga 1162 background-position cambiata per centrare la croce da mobile

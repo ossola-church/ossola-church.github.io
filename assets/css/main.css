@@ -1159,7 +1159,8 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			background-image: url("../../images/main_bg.jpg");
-			background-position: center;
+			/* il valore originale qua sotto era: center */
+			background-position: calc(30%);
 			background-size: cover;
 			background-repeat: no-repeat;
 			z-index: 1;
@@ -1381,7 +1382,7 @@ input, select, textarea {
 			display: block;
 			position: absolute;
 			top: 0;
-			left: calc(50% - 1px);
+			left: calc(50% + 1px);
 			width: 1px;
 			height: 100%;
 			background: #ffffff;
