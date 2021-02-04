@@ -5,3 +5,5 @@ originale = left: calc(50% -1px)
 modificato = left: calc(50% +1px)
 
 riga 1162 background-position cambiata per centrare la croce da mobile
+
+riga 1261 rimosso 0.25 dal background xk creava vari gradienti di nero, messo a 0
